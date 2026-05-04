@@ -1,25 +1,36 @@
 # Module 1: Azure Virtual Machines
 
-## What is a Virtual Machine?
-A Virtual Machine (VM) is a software-based computer running in the cloud.
+## Overview
+An Azure Virtual Machine is a cloud-based computer that runs an operating system and applications. It follows the Infrastructure as a Service (IaaS) model.
 
 ## Key Concepts
-- IaaS (Infrastructure as a Service)
-- OS images (Windows Server, Linux)
-- Resource groups
+- Resource Groups
 - Regions
+- VM Size (CPU, RAM)
+- OS Images (Windows Server)
+- Remote Desktop (RDP - Port 3389)
 
-## Steps to Create a VM
+## Step-by-Step Lab
+
+### Task: Create a Windows VM
 1. Go to Azure Portal
 2. Search "Virtual Machines"
-3. Click Create
+3. Click Create → Azure VM
 4. Configure:
-   - Name
-   - Region
-   - Image
-   - Size
-5. Open port 3389 (RDP)
+   - Name: myVM
+   - Region: East US
+   - Image: Windows Server
+5. Enable port 3389
+6. Click Review + Create
 
-## Connect to VM
+### Connect to VM
 - Download RDP file
-- Login using admin credentials
+- Login with username/password
+
+## Real-World Use Case
+Companies use VMs to host websites, run applications, and manage databases without buying physical servers.
+
+## Practice Questions
+1. What is IaaS?
+2. Why is port 3389 required?
+3. What is a resource group?
