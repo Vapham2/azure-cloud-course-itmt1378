@@ -18,3 +18,12 @@ This course introduces cloud computing, database management, and real-time analy
 - Azure Portal
 - Cosmos DB Emulator
 - Microsoft Fabric
+
+## Labs Included
+Each module includes hands-on exercises to reinforce learning.
+
+## Skills Gained
+- Cloud deployment
+- Database design
+- Data analytics
+- Real-time data processing
