@@ -1,15 +1,29 @@
 # Module 3: Microsoft Fabric Lakehouse
 
-## What is a Lakehouse?
-A system that combines:
-- Data lake (raw storage)
-- Data warehouse (structured analytics)
+## Overview
+A Lakehouse combines data lake and data warehouse into one system.
 
-## Steps
-1. Create Lakehouse
-2. Upload CSV data
-3. Run SQL queries
+## Key Concepts
+- Structured + unstructured data
+- Data ingestion
+- SQL queries
 
-## Benefits
-- Centralized data
-- Easy analytics
+## Lab Exercise
+
+### Task: Create a Lakehouse
+1. Open Microsoft Fabric
+2. Create a new Lakehouse
+
+### Upload Data
+- Upload CSV dataset
+
+### Query Data
+- Run SQL queries to analyze data
+
+## Real-World Use Case
+Companies use lakehouses to analyze large datasets in one platform.
+
+## Practice Questions
+1. What is a Lakehouse?
+2. Difference between data lake and warehouse?
+3. Why is data ingestion important?
