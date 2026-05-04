@@ -1,23 +1,36 @@
-# Module 4: Real-Time Analytics with Eventstream
+# Module 4: Eventstream & Real-Time Analytics
 
-## Eventstream
-A pipeline that moves data:
-Source → Processing → Destination
+## Overview
+Eventstream processes real-time data, while Eventhouse stores and analyzes it using KQL.
 
-## Eventhouse
-- Stores streaming data
-- Uses KQL (Kusto Query Language)
+## Key Concepts
+- Eventstream (data pipeline)
+- Eventhouse (real-time database)
+- KQL (query language)
 
-## Steps
+## Lab Exercise
+
+### Task: Create Real-Time Pipeline
 1. Create Eventhouse
 2. Create Eventstream
 3. Add data source
-4. Apply transformations
-5. Start stream
+4. Add transformation
+5. Add destination
 
-## Queries
+### Start Stream
+- Run pipeline
+
+### Query Data
 - Retrieve 100 rows
-- Calculate average stock price
+- Calculate average values
 
-## Alerts
-Trigger notifications when conditions are met
+### Create Alert
+- Trigger alert based on condition
+
+## Real-World Use Case
+Used in stock trading, IoT sensors, and live dashboards.
+
+## Practice Questions
+1. What is Eventstream?
+2. What is KQL used for?
+3. Why are alerts important?
